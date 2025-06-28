@@ -1,7 +1,7 @@
 // src/data/experience.js
 const experience = [
   {
-    role: "Software Engineering Intern – Python Full Stack",
+    role: "Software Developer Intern",
     company: "Centre for Railway Information Systems (CRIS)",
     period: "May 2024 – Jul 2024",
     description:
@@ -9,7 +9,7 @@ const experience = [
     tech: ["Flutter", "Node.js", "PostgreSQL", "HTML", "CSS", "JavaScript"],
   },
   {
-    role: "Flutter Developer Intern",
+    role: "Application Developer Intern ",
     company: "Sneaco",
     period: "Aug 2024 – Nov 2024",
     description:
@@ -27,7 +27,7 @@ const experience = [
   {
     role: "Software Engineering Virtual Experience",
     company: "J.P. Morgan Chase & Co.",
-    period: "Sep 2024",
+    period: "Aug 2024 - Sep 2024",
     description:
       "Completed the J.P. Morgan Software Engineering virtual program on Forage. Built a stock price data visualizer using Perspective, connected JPM’s simulated data feed, and implemented interactive front-end filtering and analysis.",
     tech: ["JavaScript", "React", "Perspective", "Financial APIs"],

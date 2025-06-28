@@ -14,7 +14,6 @@ const projects = [
     github: "https://github.com/Gautam2117/AI-Chatbot-SAAS", // Replace with actual repo link if public
     demo: "https://ai-chatbot-saas-eight.vercel.app",
   },
-
   {
     title: "Collaborative Code Editor",
     description: "A real-time code collaboration platform supporting simultaneous editing, room-based access, and persistent code storage. Built for pair programming using React, Spring Boot, WebSockets, and MongoDB.",
@@ -22,6 +21,20 @@ const projects = [
     github: "https://github.com/Gautam2117/Collaborative-Code-Editor",
     demo: "", // Add live link if deployed
   },
+  {
+    title: "CloudVault – Secure File Storage & Sharing Platform",
+    description: "A Django-based cloud storage platform with secure OTP-based authentication, password-protected vaults, file/folder sharing, and a modern dashboard UI. Designed as a private, secure alternative to Google Drive.",
+    tech: ["Django", "Python", "MySQL", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Gautam2117/CloudVault-Django-Based-Secure-File-Storage-and-Sharing-Platform",
+    demo: "", // Add hosted link or walkthrough video if available
+  },
+  {
+    title: "SmartCart AI – Realtime Product Recommender",
+    description: "A modern e-commerce frontend built with React and Vite for SmartCart AI, featuring real-time product recommendations, responsive UI, and enhanced performance. Designed to deliver a personalized shopping experience.",
+    tech: ["React", "Vite", "Tailwind CSS", "JavaScript"],
+    github: "https://github.com/Gautam2117/smartcart-ai-frontend",
+    demo: "https://smartcart-beige.vercel.app",
+  },  
   {
     title: "globeTalk - Language Learning & Cultural Exchange",
     description: "Connect, learn, and explore languages through AI-powered chat, global video calls, cultural festivals, and interactive courses.",
@@ -36,6 +49,13 @@ const projects = [
     github: "https://github.com/Gautam2117/Bank-Management-System",
     demo: "", // Add deployed demo link if available
   },
+  {
+    title: "MRI-Based Neurological Disorder Detection",
+    description: "A machine learning-powered diagnostic system for early detection of Alzheimer’s and Parkinson’s diseases using EEG data. Combines InceptionV3-LSTM for Alzheimer's and KNN for Parkinson’s, with a Django frontend for clinical usability.",
+    tech: ["Python", "InceptionV3", "LSTM", "KNN", "Django", "EEG", "Machine Learning"],
+    github: "https://github.com/Gautam2117/MRI-Neurological-Disorder-Detection", // Private repo
+    demo: "", // Add demo video or deployment link if available
+  },  
   {
     title: "Hotel Booking Management System (MEAN Stack)",
     description: "A complete hotel booking application where users can search and book hotels, and admins can manage listings and users, built with the MEAN stack.",
@@ -57,6 +77,13 @@ const projects = [
     github: "https://github.com/Gautam2117/School-Management-System",
     demo: "", // Add deployed demo link if available
   },
+  {
+    title: "Hand Gesture Recognition System",
+    description: "A real-time gesture recognition pipeline using EfficientNetV2, Swin Transformer, and LSTM. Features YOLOv8 for detection, OpenCV for video capture, and FastAPI + Docker for containerized serving over a 119GB dataset spanning 34 gesture categories.",
+    tech: ["Python", "TensorFlow", "PyTorch", "OpenCV", "YOLOv8", "FastAPI", "Docker"],
+    github: "", // Add GitHub repo link when available
+    demo: "", // Add demo or video link if applicable
+  },  
   {
     title: "Scalable Movie Recommendation System (Big Data)",
     description: "A scalable movie recommender system built with Apache Spark using the MovieLens dataset, implementing collaborative filtering, popularity models, and evaluation with RMSE and NDCG.",
@@ -135,13 +162,6 @@ const projects = [
     demo: "", // Add deployed app or live preview link if available
   },
   {
-    title: "MRI-Based Neurological Disorder Detection",
-    description: "A machine learning-powered diagnostic system for early detection of Alzheimer’s and Parkinson’s diseases using EEG data. Combines InceptionV3-LSTM for Alzheimer's and KNN for Parkinson’s, with a Django frontend for clinical usability.",
-    tech: ["Python", "InceptionV3", "LSTM", "KNN", "Django", "EEG", "Machine Learning"],
-    github: "https://github.com/Gautam2117/MRI-Neurological-Disorder-Detection", // Private repo
-    demo: "", // Add demo video or deployment link if available
-  },
-  {
     title: "Health Tracker App",
     description: "An Android app developed in Java that connects to wearable devices via Bluetooth to monitor real-time health metrics such as heart rate, step count, and sleep quality. Designed with an intuitive UI and battery-efficient communication.",
     tech: ["Java", "Android", "Bluetooth LE"],
@@ -177,13 +197,6 @@ const projects = [
     demo: "", // Add a hosted notebook or demo link if available
   },
   {
-    title: "CloudVault – Secure File Storage & Sharing Platform",
-    description: "A Django-based cloud storage platform with secure OTP-based authentication, password-protected vaults, file/folder sharing, and a modern dashboard UI. Designed as a private, secure alternative to Google Drive.",
-    tech: ["Django", "Python", "MySQL", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Gautam2117/CloudVault-Django-Based-Secure-File-Storage-and-Sharing-Platform",
-    demo: "", // Add hosted link or walkthrough video if available
-  },
-  {
     title: "Botify Website – AI Chatbot Landing Page",
     description: "A modern and responsive landing page for Botify, built with React, Tailwind CSS, and Vite. Features include dark mode, SEO optimization, and fast-loading UI to promote the Botify AI chatbot SaaS product.",
     tech: ["React", "Vite", "Tailwind CSS", "JavaScript", "Vercel"],
@@ -203,20 +216,6 @@ const projects = [
     tech: ["React", "Tailwind CSS", "Vite", "RapidAPI", "Context API"],
     github: "https://github.com/Gautam2117/Spotify-2.0-clone-react",
     demo: "", // Add deployed link if hosted
-  },
-  {
-    title: "SmartCart AI – Realtime Product Recommender",
-    description: "A modern e-commerce frontend built with React and Vite for SmartCart AI, featuring real-time product recommendations, responsive UI, and enhanced performance. Designed to deliver a personalized shopping experience.",
-    tech: ["React", "Vite", "Tailwind CSS", "JavaScript"],
-    github: "https://github.com/Gautam2117/smartcart-ai-frontend",
-    demo: "https://smartcart-beige.vercel.app",
-  },
-  {
-    title: "Hand Gesture Recognition System",
-    description: "A real-time gesture recognition pipeline using EfficientNetV2, Swin Transformer, and LSTM. Features YOLOv8 for detection, OpenCV for video capture, and FastAPI + Docker for containerized serving over a 119GB dataset spanning 34 gesture categories.",
-    tech: ["Python", "TensorFlow", "PyTorch", "OpenCV", "YOLOv8", "FastAPI", "Docker"],
-    github: "", // Add GitHub repo link when available
-    demo: "", // Add demo or video link if applicable
   },
   {
     title: "Blood Group Detection Using Fingerprint",
